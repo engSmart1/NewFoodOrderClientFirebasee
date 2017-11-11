@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "857439237372",
+    "firebase_url": "https://newfoodorder-5e306.firebaseio.com",
+    "project_id": "newfoodorder-5e306",
+    "storage_bucket": "newfoodorder-5e306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857439237372:android:c507b839d94d5f55",
+        "android_client_info": {
+          "package_name": "musictag.hytham1.com.newfoodorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857439237372-464pl4tu6lm63dkbrh517h9fepffrbcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "musictag.hytham1.com.newfoodorder",
+            "certificate_hash": "8e2325262f259851aaeb5f32486e042740b06cdd"
+          }
+        },
+        {
+          "client_id": "857439237372-gir5kotk6hh37utjgh5tev9qv6mu41fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfoKiAFebd5TWXHBSO7plwRazuhjxJnyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857439237372-gir5kotk6hh37utjgh5tev9qv6mu41fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857439237372:android:2be210eb6485a8f9",
+        "android_client_info": {
+          "package_name": "musictag.hytham1.com.newfoodorderclientfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857439237372-mlkeoun3uvc2n426svsajkdka5ulvoel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "musictag.hytham1.com.newfoodorderclientfirebase",
+            "certificate_hash": "8e2325262f259851aaeb5f32486e042740b06cdd"
+          }
+        },
+        {
+          "client_id": "857439237372-gir5kotk6hh37utjgh5tev9qv6mu41fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfoKiAFebd5TWXHBSO7plwRazuhjxJnyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857439237372-gir5kotk6hh37utjgh5tev9qv6mu41fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/piz"
+    tools:context="musictag.hytham1.com.newfoodorderclientfirebase.MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Sign Up"
+       android:textStyle="bold"
+       android:padding="6dp"
+       android:textColor="#0b0000"
+       android:gravity="center_horizontal"
+       android:textSize="25sp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex : Name01076746734@pizza.com"
+        android:background="#fff"
+        android:padding="3dp"
+        android:id="@+id/et_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password..More than 5 Characters"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:padding="3dp"
+        android:inputType="textPassword"
+        android:id="@+id/et_password"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:text="Sign Up"
+        android:background="#f46b04"
+        android:onClick="signUpClicked"/>
+
+ <ImageView
+     android:layout_width="300dp"
+     android:layout_height="200dp"
+     android:layout_gravity="center_horizontal"
+     android:layout_marginTop="10dp"
+     android:src="@drawable/welcome"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account"
+        android:textStyle="bold"
+        android:textColor="#080001"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:background="#e07e4e"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_signIn"
+        android:background="#f46b04"
+        android:text="Sign In"
+        android:onClick="signInClicked"/>
+
+</LinearLayout>

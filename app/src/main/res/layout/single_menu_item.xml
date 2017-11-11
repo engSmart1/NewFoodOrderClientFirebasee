@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="musictag.hytham1.com.newfoodorderclientfirebase.MenuActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/foodImage"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/foodDesc"
+                android:text="Pizza"
+                android:layout_toEndOf="@+id/foodImage"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/foodName"
+                android:text="Italian Pizza with Extra cheese"
+                android:layout_marginTop="5dp"
+                android:minLines="1"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_below="@+id/foodDesc"
+                android:layout_toEndOf="@+id/foodImage"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/foodPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/foodName"
+                android:text="44"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/foodImage"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
